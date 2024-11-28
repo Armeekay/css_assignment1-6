@@ -1,0 +1,119 @@
+body {
+    font-family: sans-serif;
+    background-color: #F7FDFC; 
+    color: #333; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 15%;
+    background-color: #f7fdfc;
+    color: #2ec4b6;
+}
+
+form {
+    border-radius: 5px;
+    padding: 3rem;
+    background-color : #FFFFFF;
+    box-shadow: 0px 4px 50px 0px #0408131A;
+}
+
+.container, img.password-eye {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0px; 
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 0%;
+    background-color: #f7fdfc;
+    color: #2ec4b6;
+}
+
+.row-1, .row-3 {
+    color: black;
+    display: flex;
+    margin-bottom: 20px; 
+    gap: 50px;
+}
+
+.row-2 {
+    color: black;
+    display: flex;
+    margin-bottom: 20px; 
+    gap: 70px;
+    border-radius: 6px;
+}
+
+.row-2 input {
+    padding-left: 0.7rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 4.7rem;
+    border-radius: 4px;
+    box-sizing: content-box;
+    width: 90%;
+}
+
+.row-4 {
+    color: black;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold; 
+}
+
+input, select, button {
+    width: 327px;
+    padding: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: gray;
+    left: 24px;
+    box-sizing: content-box;
+    width: 85%;
+    font-family: sans-serif; 
+    font-weight: 300;
+    padding-right: 4rem;
+    outline: 1px solid #c1bdbd;
+}
+
+button {
+    background-color: #45E0BC; 
+    color: #fff;
+    cursor: pointer;
+    border: none; 
+    font-weight: 500; 
+}
+
+h1 {
+    color: black;
+    font-size: 2rem;
+}
+
+.for-individuals, .company-text {
+    color: #555;
+    font-size: medium;
+    line-height: 1.5;
+    margin-top: 3%;
+    margin-right: 80px;
+}
+
+.terms-text {
+    text-align: center;
+    margin-top: 3%;
+    color: black;
+    font-size: larger;
+  }
+  
+  .terms-text a {
+    color: #2ec4b6;
+  }
+
+img.password-eye {
+    width: 10px;
+    height: 10px;
+}

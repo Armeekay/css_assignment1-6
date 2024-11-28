@@ -1,0 +1,55 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-top: 40px;
+  margin-left: 40px;
+  box-sizing: border-box;
+}
+
+div {
+  outline: 1px solid black;
+  height: 30%;
+  width: 50%;
+  border-radius: 10px;
+  position: relative;
+  border: 0px;
+  display: block;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+.otter {
+  float: left;
+  width: 50%;
+  padding: 1.0rem;
+  border-radius: 0px;
+  border-width: 20px;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  top: -40px;
+  bottom: 200px;
+  left: 15px;
+  list-style: none;
+  background-color: #ff0095;
+  z-index: 1;
+}
+.section a {
+  display: inline;
+}
+
+
+
